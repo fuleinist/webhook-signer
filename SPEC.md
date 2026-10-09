@@ -49,3 +49,9 @@ Webhook security is a universal pain point. Every SaaS builder rewrites signatur
 ## Build log
 
 - Cycle 1: SPEC.md, vectors generator, shared vectors, LICENSE, .gitignore.
+- Cycle 2: TypeScript implementation, 13 vector tests green, tsc --strict clean.
+- Cycle 3: Python implementation, 13 vector tests green.
+- Cycle 4: Go implementation, vector tests green, stdlib only, gofmt clean.
+- Cycle 5: PHP implementation, 41 assertions green (ext-sodium enabled in php.ini).
+- Cycle 6: Rust implementation, 9 tests green (hmac/sha2/ed25519-dalek).
+- Cycle 7: README, SECURITY.md, final cross-language verification, tag v0.1.0.
