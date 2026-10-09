@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webhook-signer"
+version = "0.1.0"
+description = "Webhook signature verification: HMAC-SHA256, Ed25519, header formats, secret auditing."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["cryptography>=41"]
+
+[tool.setuptools]
+packages = ["webhook_signer"]
