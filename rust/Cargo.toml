@@ -1,0 +1,17 @@
+[package]
+name = "webhook_signer"
+version = "0.1.0"
+edition = "2021"
+description = "Webhook signature verification: HMAC-SHA256, Ed25519, header formats, secret auditing."
+license = "MIT"
+
+[dependencies]
+hmac = "0.12"
+sha2 = "0.10"
+ed25519-dalek = "2"
+hex = "0.4"
+subtle = "2"
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
