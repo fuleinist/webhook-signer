@@ -1,0 +1,16 @@
+{
+  "name": "@webhook-signer/core",
+  "version": "0.1.0",
+  "description": "Webhook signature verification: HMAC-SHA256, Ed25519, header formats, secret auditing. Zero runtime deps.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  }
+}
